@@ -1,0 +1,46 @@
+{
+  "name": "react-apps",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@gazzar97/widgets": "git+https://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:x-oauth-basic@github.com/EduApps-Egypt/ReactLibraries.git#widgets",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "algebrite": "^1.4.0",
+    "bootstrap": "^4.5.2",
+    "font-awesome": "^4.7.0",
+    "nerdamer": "^1.1.10",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.3",
+    "reactstrap": "^8.9.0",
+    "recharts": "^2.0.9",
+    "web-vitals": "^1.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
